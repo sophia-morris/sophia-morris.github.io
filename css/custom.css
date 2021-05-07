@@ -1,0 +1,17 @@
+/* your styles go here */
+.sidebar-menu li.active a {
+    font-weight: bold;
+    color: black;
+}
+.sidebar-menu li.active:before {
+    color: black;
+    font-weight: bold;
+}
+.sidebar-menu li:hover a {
+    text-decoration: none;
+    color: black;
+}
+.sidebar-menu li:hover:before {
+    color: black;
+    font-weight: bold;
+}
